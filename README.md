@@ -346,4 +346,4 @@ MIT License - detaylar için LICENSE dosyasına bakın.
 ## Destek
 
 Sorunlar ve öneriler için:
-- GitHub Issues: https://github.com/Sxinar/artstelve-proxy/issues
+- GitHub Issues: https://github.com/Artado-Project/ArtadoProxy/issues
