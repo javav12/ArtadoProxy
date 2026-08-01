@@ -99,7 +99,7 @@ export const googleNews: NewsEngine = {
             scrapeDuckDuckGoNews(query, signal)
         ]);
 
-        let combined: NewsResult[] = [];
+        const combined: NewsResult[] = [];
         if (googleRes.status === 'fulfilled') combined.push(...googleRes.value);
         if (ddgRes.status === 'fulfilled') combined.push(...ddgRes.value);
 

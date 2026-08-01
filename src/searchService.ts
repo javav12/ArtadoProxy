@@ -148,6 +148,7 @@ const engineWeight: Record<SearchEngineId, number> = {
   duckduckgo: 1.0,
   brave: 0.95,
   startpage: 0.9,
+  bing: 0.85,
   qwant: 0.85,
   mojeek: 0.75,
   ask: 0.6,
@@ -180,7 +181,7 @@ export type EngineHealth = {
 };
 
 // Global search statistics
-let globalSearchStats = {
+const globalSearchStats = {
   totalSearches: 0,
   totalResults: 0,
   totalErrors: 0,

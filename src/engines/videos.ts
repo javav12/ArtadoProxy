@@ -85,7 +85,7 @@ export const googleVideos: VideoEngine = {
             scrapeDDGVideos(query, signal)
         ]);
 
-        let combined: VideoResult[] = [];
+        const combined: VideoResult[] = [];
         if (bing.status === 'fulfilled') combined.push(...bing.value);
         if (ddg.status === 'fulfilled') combined.push(...ddg.value);
 

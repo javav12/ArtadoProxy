@@ -1,4 +1,5 @@
 export type SearchEngineId =
+  | 'bing'
   | 'duckduckgo'
   | 'brave'
   | 'startpage'

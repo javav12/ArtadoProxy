@@ -52,7 +52,7 @@ export const googleImages: ImageEngine = {
       yandexScraper(query, pageno)
     ]);
 
-    let combined: ImageResult[] = [];
+    const combined: ImageResult[] = [];
     if (bingRes.status === 'fulfilled') combined.push(...bingRes.value);
     if (yandexRes.status === 'fulfilled') combined.push(...yandexRes.value);
 
