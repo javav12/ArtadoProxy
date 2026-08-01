@@ -230,8 +230,6 @@ function updateGlobalSearchStats(query: string, resultCount: number, responseTim
   
   // Update time-based counters
   const now = new Date();
-  const today = now.toDateString();
-  const thisHour = now.getHours();
   
   globalSearchStats.lastSearchTime = now.toISOString();
   globalSearchStats.searchQueries.push(query);

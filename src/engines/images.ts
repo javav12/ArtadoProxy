@@ -45,6 +45,7 @@ const yandexScraper = async (query: string, pageno: number): Promise<ImageResult
 
 export const googleImages: ImageEngine = {
   id: 'google-images',
+  // eslint-disable-next-line
   async search({ query, limit, pageno = 1, signal }) {
     // Tüm kaynakları paralel çalıştır
     const [bingRes, yandexRes] = await Promise.allSettled([

@@ -29,7 +29,7 @@ export const marginalia: Engine = {
                 }));
 
             return results;
-        } catch (e) {
+        } catch (_e) {
             // Fallback or error
             return [];
         }

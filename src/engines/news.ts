@@ -43,7 +43,7 @@ async function scrapeGoogleRSS(query: string, signal?: AbortSignal): Promise<New
             }
         });
         return results;
-    } catch (e) {
+    } catch (_e) {
         return [];
     }
 }
@@ -85,7 +85,7 @@ async function scrapeDuckDuckGoNews(query: string, signal?: AbortSignal): Promis
             }
         });
         return results;
-    } catch (e) {
+    } catch (_e) {
         return [];
     }
 }

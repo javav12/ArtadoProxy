@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import 'dotenv/config';
 import { metaSearch, parseEnginesParam, getEngineHealth, getGlobalSearchStats } from './searchService.js';
+// eslint-disable-next-line
 import type { EngineHealth } from './searchService.js';
 import { engines } from './engines/index.js';
 import { imageSearch } from './imageSearchService.js';

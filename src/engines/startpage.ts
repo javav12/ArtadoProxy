@@ -2,7 +2,6 @@ import type { Engine } from './engine.js';
 import type { SearchResult } from '../types.js';
 import { fetchHtml } from '../http/fetchHtml.js';
 import { loadHtml } from '../html/load.js';
-import type { AnyNode } from 'domhandler';
 
 export const startpage: Engine = {
   id: 'startpage',
